@@ -1,0 +1,13 @@
+{
+  "extends": ["airbnb-base", "prettier"],
+  "env": {
+    "jest": true,
+    "node": true
+  },
+  "rules": {
+    "max-len": [1, 120, { "tabWidth": 2, "ignoreComments": true }],
+    "linebreak-style": 0,
+    "global-require": 0,
+    "eslint linebreak-style": [0, "error", "windows"]
+  }
+}
